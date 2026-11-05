@@ -1,0 +1,142 @@
+{
+  "bootstrap_B": 2000,
+  "counts": {
+    "benign": 200,
+    "launder_total": 480,
+    "reprepare": 50,
+    "sanity": 100,
+    "state_probes": 200
+  },
+  "g2_by_type_naive": {
+    "A_ticket_reuse": {
+      "n": 160,
+      "rate": 1.0,
+      "x": 160
+    },
+    "B_unmediated": {
+      "n": 160,
+      "rate": 1.0,
+      "x": 160
+    },
+    "C_default_altered": {
+      "n": 160,
+      "rate": 1.0,
+      "x": 160
+    }
+  },
+  "g2_naive_launder_success": {
+    "n": 480,
+    "rate": 1.0,
+    "x": 480
+  },
+  "g2_naive_launder_success_boot95": [
+    1.0,
+    1.0
+  ],
+  "g2_naive_launder_success_wilson95": [
+    0.992060500788465,
+    1.0
+  ],
+  "g3a_by_type_proto_block": {
+    "A_ticket_reuse": {
+      "n": 160,
+      "rate": 1.0,
+      "x": 160
+    },
+    "B_unmediated": {
+      "n": 160,
+      "rate": 1.0,
+      "x": 160
+    },
+    "C_default_altered": {
+      "n": 160,
+      "rate": 1.0,
+      "x": 160
+    }
+  },
+  "g3a_paired_diff_block_proto_minus_naive": {
+    "boot95": [
+      1.0,
+      1.0
+    ],
+    "diff": 1.0
+  },
+  "g3a_proto_launder_block": {
+    "n": 480,
+    "rate": 1.0,
+    "x": 480
+  },
+  "g3a_proto_launder_block_boot95": [
+    1.0,
+    1.0
+  ],
+  "g3a_proto_launder_block_wilson95": [
+    0.992060500788465,
+    1.0
+  ],
+  "g3b_naive_state_correct": {
+    "n": 200,
+    "rate": 0.0,
+    "x": 0
+  },
+  "g3b_paired_diff_correct_proto_minus_naive": {
+    "boot95": [
+      1.0,
+      1.0
+    ],
+    "diff": 1.0
+  },
+  "g3b_proto_state_correct": {
+    "n": 200,
+    "rate": 1.0,
+    "x": 200
+  },
+  "g3b_proto_state_correct_wilson95": [
+    0.9811546733310369,
+    0.9999999999999998
+  ],
+  "g3c_naive_benign_success": {
+    "n": 200,
+    "rate": 1.0,
+    "x": 200
+  },
+  "g3c_proto_benign_success": {
+    "n": 200,
+    "rate": 1.0,
+    "x": 200
+  },
+  "g3c_proto_benign_success_boot95": [
+    1.0,
+    1.0
+  ],
+  "g3c_proto_benign_success_wilson95": [
+    0.9811546733310369,
+    0.9999999999999998
+  ],
+  "launder_C_effect_mismatch_fraction": {
+    "n": 160,
+    "rate": 0.45,
+    "x": 72
+  },
+  "reprepare_after_denial_naive": {
+    "n": 50,
+    "rate": 0.0,
+    "x": 0
+  },
+  "reprepare_after_denial_proto": {
+    "n": 50,
+    "rate": 1.0,
+    "x": 50
+  },
+  "sanity_ungranted_committed_naive": {
+    "n": 100,
+    "rate": 0.0,
+    "x": 0
+  },
+  "sanity_ungranted_committed_proto": {
+    "n": 100,
+    "rate": 0.0,
+    "x": 0
+  },
+  "seed": 20261102
+}
